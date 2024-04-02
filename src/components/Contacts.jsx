@@ -48,9 +48,8 @@ function Contacts() {
 
   return (
     <div className="contacts-container">
-      <h1 className="contacts-heading">Contacts<span className="line"></span></h1>
+            <h1>Contacts</h1>
       <div className="contact-grid">
-        <NewContactModal addContact={addContact} onClose={handleCloseModal} show={showModal} />
         {contacts.map((contact) => (
           <Card
             key={contact.id}

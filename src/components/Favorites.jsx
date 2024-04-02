@@ -4,10 +4,7 @@ import PropTypes from 'prop-types';
 function Favorites({ contacts, toggleFavorite }) {
   const [favoriteContacts, setFavoriteContacts] = useState([]);
 
-  useEffect(() => {
-    const filteredFavorites = contacts.filter(contact => contact.favorite);
-    setFavoriteContacts(filteredFavorites);
-  }, [contacts]); 
+  
 
   return (
     <div>

@@ -37,6 +37,18 @@ const router = createBrowserRouter([
     ),
   },
   {
+    path: '/view',
+    element: (
+      <>
+        <Navbar />
+        <NewContactModal/>
+        <ContactsPage/>
+        <FavoritesPage/>
+
+      </>
+    ),
+  },
+  {
     path: '/Contacts',
     element: (
       <>
