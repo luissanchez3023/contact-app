@@ -1,0 +1,158 @@
+.navbar {
+  background-color: white;
+  color: black; 
+  display: flex;
+  justify-content: space-between;  
+  align-items: center;
+  border: 1px solid gray;
+  padding: 10px 20px; 
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.navbar li {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  margin-right: 40px;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar a:hover,
+.navbar a:focus {
+  color: #4CAF50;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+}
+
+.new-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.new-button:hover {
+  background-color: #45a049;
+}
+
+.contacts-container {
+  margin-bottom: 20px;
+}
+
+.contacts-heading {
+  position: relative;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.line {
+  position: absolute;
+  top: 50%;
+  left: calc(100% + 20px); 
+  transform: translateY(-50%); 
+  height: 2px;
+  width: 50px;
+  background-color: green;
+}
+
+.contact-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-card {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.contact-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+}
+
+.contact-info {
+  margin-bottom: 10px;
+}
+
+.remove-button {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.favorite-button {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px; 
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.favorite-button.active {
+  background-color: yellow;
+  color: black;
+}
+
+.form-container {
+  background-color: green;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-dark-green {
+  background-color: darkgreen;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.label-white {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.submit-button {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: darkgreen;
+}
