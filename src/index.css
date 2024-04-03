@@ -13,6 +13,20 @@
   list-style-type: none;
 }
 
+.modal{
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.modal-content{
+  width: 25%;
+  background-color: #c1d72f;
+  border-radius: 10px;
+  padding: 30px;
+ 
+}
 .navbar li {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -131,8 +145,8 @@
 }
 
 .input-dark-green {
-  background-color: darkgreen;
-  color: white;
+  background-color: #d7e57a;
+  color: black;
   border: none;
   border-radius: 5px;
   padding: 8px;
@@ -145,14 +159,10 @@
 }
 
 .submit-button {
-  background-color: green;
-  color: white;
+  background-color: white;
+  color: black;
   border: none;
   border-radius: 5px;
   padding: 8px 16px;
   cursor: pointer;
-}
-
-.submit-button:hover {
-  background-color: darkgreen;
 }
